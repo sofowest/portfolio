@@ -1,10 +1,12 @@
-import React from "react"
+import React from 'react'
+import Home from './pages/Home.jsx'
+
 
 function App() {
 
   return (
     <>
-      
+      <Home />
     </>
   )
 }
