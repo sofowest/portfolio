@@ -19,6 +19,11 @@ function Home() {
 
       <h2>Contact Me</h2>
       <p>If you'd like to get in touch, feel free to reach out!</p>
+      <ul>
+        <li>Email: leandro@example.com</li>
+        <li>LinkedIn: linkedin.com/in/leandro</li>
+        <li>GitHub: github.com/leandro</li>
+      </ul>
     </div>
   );
 }
