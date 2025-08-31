@@ -1,10 +1,14 @@
-
-
 function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <h1 className="text-4xl font-bold">Leandro Gómez - Developer</h1>
-      <p className="mt-4 text-lg">I'm a passionate developer.</p>
+
+      <section>
+        <article className="mb-4 rounded-3xl max-w-50 max-h-50">
+          <img src="/imgs/profile.jpg" alt="Leandro Gómez" className="w-50 h-50" />
+        </article>
+        <h1 className="text-4xl font-bold">Leandro Gómez - Developer</h1>
+        <p className="mt-4 text-lg">I'm a passionate developer.</p>
+      </section>
 
       <h2>My stack</h2>
       <ul className="list-disc list-inside">
