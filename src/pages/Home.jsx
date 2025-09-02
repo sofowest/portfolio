@@ -17,20 +17,20 @@ function Home() {
         <li>Node.js</li>
       </ul>
 
-      <h2>Contact Me</h2>
-      <p>If you'd like to get in touch, feel free to reach out!</p>
-      <ul>
-        <li>Email: leandro@example.com</li>
-        <li>LinkedIn: linkedin.com/in/leandro</li>
-        <li>GitHub: github.com/leandro</li>
-      </ul>
-
       <h2>Projects</h2>
       <p>Here are a few projects I've worked on:</p>
       <ul>
         <li>Project 1</li>
         <li>Project 2</li>
         <li>Project 3</li>
+      </ul>
+
+      <h2>Contact Me</h2>
+      <p>If you'd like to get in touch, feel free to reach out!</p>
+      <ul>
+        <li>Email: leandro@example.com</li>
+        <li>LinkedIn: linkedin.com/in/leandro</li>
+        <li>GitHub: github.com/leandro</li>
       </ul>
     </div>
   );
