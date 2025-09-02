@@ -13,8 +13,11 @@ function Home() {
       <h2>My stack</h2>
       <ul className="list-disc list-inside">
         <li>JavaScript</li>
-        <li>React</li>
+        <li>React.js</li>
         <li>Node.js</li>
+        <li>Figma</li>
+        <li>Tailwind CSS</li>
+        <li>Git</li>
       </ul>
 
       <h2>Projects</h2>
