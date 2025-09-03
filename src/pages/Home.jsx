@@ -22,7 +22,7 @@ function Home() {
 
       <h2 className="text-3xl font-bold">Projects</h2>
       <p>Here are a few projects I've worked on:</p>
-      <ul>
+      <ul className="p-10">
         <li className="bg-blue-300 p-4 rounded-lg">
           <h3 className="text-2xl font-bold">Project 1</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maiores praesentium cumque pariatur culpa soluta voluptatum repellendus eius, quod modi consequatur nesciunt sequi impedit iusto inventore quibusdam voluptas exercitationem non.</p>
@@ -37,7 +37,7 @@ function Home() {
         </li>
       </ul>
 
-      <h2>Contact Me</h2>
+      <h2 className="">Contact Me</h2>
       <p>If you'd like to get in touch, feel free to reach out!</p>
       <ul>
         <li>Email: leandro@example.com</li>
