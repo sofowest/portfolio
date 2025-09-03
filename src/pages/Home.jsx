@@ -20,19 +20,19 @@ function Home() {
         <li>Git</li>
       </ul>
 
-      <h2>Projects</h2>
+      <h2 className="text-3xl font-bold">Projects</h2>
       <p>Here are a few projects I've worked on:</p>
       <ul>
         <li>
-          <h2>Project 1</h2>
+          <h3 className="text-2xl font-bold">Project 1</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maiores praesentium cumque pariatur culpa soluta voluptatum repellendus eius, quod modi consequatur nesciunt sequi impedit iusto inventore quibusdam voluptas exercitationem non.</p>
         </li>
         <li>
-          <h2>Project 2</h2>
+          <h3 className="text-2xl font-bold">Project 2</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maiores praesentium cumque pariatur culpa soluta voluptatum repellendus eius, quod modi consequatur nesciunt sequi impedit iusto inventore quibusdam voluptas exercitationem non.</p>
         </li>
         <li>
-          <h2>Project 3</h2>
+          <h3 className="text-2xl font-bold">Project 3</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maiores praesentium cumque pariatur culpa soluta voluptatum repellendus eius, quod modi consequatur nesciunt sequi impedit iusto inventore quibusdam voluptas exercitationem non.</p>
         </li>
       </ul>
