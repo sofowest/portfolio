@@ -2,9 +2,10 @@ function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
 
-      <section>
-        <article className="mb-4 rounded-3xl max-w-50 max-h-50">
-          <img src="/imgs/profile.jpg" alt="Leandro Gómez" className="w-50 h-50" />
+      <section className="text-center mb-8">
+        {/* Centrar la imagen horizontalmente */}
+        <article className="mb-4 flex justify-center items-center">
+          <img src="/imgs/profile.jpg" alt="Leandro Gómez" className="w-32 h-32 rounded-full object-cover" />
         </article>
         <h1 className="text-4xl font-bold">Leandro Gómez - Developer</h1>
         <p className="mt-4 text-lg">I'm a passionate developer.</p>
