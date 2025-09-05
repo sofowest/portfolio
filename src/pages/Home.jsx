@@ -24,15 +24,15 @@ function Home() {
       <h2 className="text-3xl font-bold">Projects</h2>
       <p>Here are a few projects I've worked on:</p>
       <ul className="p-10">
-        <li className="bg-blue-300 p-4 rounded-lg w-150">
-          <h3 className="text-2xl font-bold">Project 1</h3>
+        <li className="bg-blue-300 p-4 rounded-lg w-150 my-5">
+          <h3 className="text-2xl font-bold">Hogar Luz Y Vida</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maiores praesentium cumque pariatur culpa soluta voluptatum repellendus eius, quod modi consequatur nesciunt sequi impedit iusto inventore quibusdam voluptas exercitationem non.</p>
         </li>
-        <li className="bg-blue-300 p-4 rounded-lg w-150">
+        <li className="bg-blue-300 p-4 rounded-lg w-150 my-5">
           <h3 className="text-2xl font-bold">Project 2</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maiores praesentium cumque pariatur culpa soluta voluptatum repellendus eius, quod modi consequatur nesciunt sequi impedit iusto inventore quibusdam voluptas exercitationem non.</p>
         </li>
-        <li className="bg-blue-300 p-4 rounded-lg w-150">
+        <li className="bg-blue-300 p-4 rounded-lg w-150 my-5">
           <h3 className="text-2xl font-bold">Project 3</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maiores praesentium cumque pariatur culpa soluta voluptatum repellendus eius, quod modi consequatur nesciunt sequi impedit iusto inventore quibusdam voluptas exercitationem non.</p>
         </li>
