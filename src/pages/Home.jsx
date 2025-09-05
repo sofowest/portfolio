@@ -39,7 +39,6 @@ function Home() {
       </ul>
 
       <h2 className="text-3xl font-bold">Contact Me</h2>
-      <p>If you'd like to get in touch, feel free to reach out!</p>
       <ul className="flex gap-6 mt-4">
         <li>
           <a href="mailto:leandrogoezmdev@gmail.com" target="_blank" rel="noopener noreferrer" title="Email">
