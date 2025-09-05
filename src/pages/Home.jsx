@@ -11,7 +11,7 @@ function Home() {
         <p className="mt-4 text-lg">I'm a passionate developer.</p>
       </section>
 
-      <h2>My stack</h2>
+      <h2 className="text-3xl font-bold">My stack</h2>
       <ul className="list-disc list-inside">
         <li className="list-none">JavaScript</li>
         <li className="list-none">React.js</li>
