@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="flex flex-col items-center justify-center min-h-screen py-2 text-white bg-indigo-950">
 
       <section className="text-center mb-8">
         {/* Centrar la imagen horizontalmente */}
@@ -13,12 +13,12 @@ function Home() {
 
       <h2>My stack</h2>
       <ul className="list-disc list-inside">
-        <li>JavaScript</li>
-        <li>React.js</li>
-        <li>Node.js</li>
-        <li>Figma</li>
-        <li>Tailwind CSS</li>
-        <li>Git</li>
+        <li className="list-none">JavaScript</li>
+        <li className="list-none">React.js</li>
+        <li className="list-none">Node.js</li>
+        <li className="list-none">Figma</li>
+        <li className="list-none">Tailwind CSS</li>
+        <li className="list-none">Git</li>
       </ul>
 
       <h2 className="text-3xl font-bold">Projects</h2>
