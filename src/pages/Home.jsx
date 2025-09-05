@@ -41,9 +41,9 @@ function Home() {
       <h2 className="text-3xl font-bold">Contact Me</h2>
       <p>If you'd like to get in touch, feel free to reach out!</p>
       <ul>
-        <li>Email: leandro@example.com</li>
-        <li>LinkedIn: linkedin.com/in/leandro</li>
-        <li>GitHub: github.com/leandro</li>
+        <li>Email: leandrogoezmdev@gmail.com</li>
+        <li>LinkedIn: https://www.linkedin.com/in/leandro-g%C3%B3mez-739a92334/</li>
+        <li>GitHub: https://github.com/sofowest</li>
       </ul>
     </div>
   );
