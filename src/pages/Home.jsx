@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 text-white bg-indigo-950">
+    <div className="flex flex-col items-center justify-center min-h-screen py-2 text-white w-[800px] bg-indigo-950">
 
       <section className="text-center mb-8">
         {/* Centrar la imagen horizontalmente */}
