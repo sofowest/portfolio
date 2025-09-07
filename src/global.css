@@ -4,9 +4,24 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-ubuntu), monospace, sans-serif;
   background-color: white;
 }
 
+@theme {
+  --font-ubuntu: "Ubuntu", "Arial", "monospace";
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('/fonts/Ubuntu-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('/fonts/Ubuntu-Bold.woff2') format('woff2');
+    font-weight: 700;
+}
 
 

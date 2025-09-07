@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <main className='bg-[#121536] min-h-screen flex items-center justify-center'>
+      <main className='bg-[#1e2358] min-h-screen flex items-center justify-center'>
         <Home />
       </main>
     </>

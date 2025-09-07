@@ -1,14 +1,15 @@
 function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 text-white w-[800px] bg-indigo-950">
+    <div className="flex flex-col items-center justify-center min-h-screen py-2 text-white w-[800px] bg-[#1e1a4d] shadow-2xl shadow-blue-900">
 
-      <section className="text-center mb-8">
+      <section className="text-center mb-8 h-[100vh]">
         {/* Centrar la imagen horizontalmente */}
-        <article className="mb-4 flex justify-center items-center">
+        <article className="mb-4 flex justify-center items-center ">
           <img src="/imgs/profile.jpg" alt="Leandro Gómez" className="w-32 h-32 rounded-full object-cover" />
         </article>
-        <h1 className="text-4xl font-bold">Leandro Gómez - Developer</h1>
-        <p className="mt-4 text-lg">I'm a passionate developer.</p>
+        <h1 className="text-4xl font-bold">Leandro Gómez</h1>
+        <h2 className="text-2xl font-bold">Web Developer</h2>
+        <p className="mt-4 text-lg text-[#1e1a4d]">Soy gay.</p>
       </section>
 
       <h2 className="text-3xl font-bold">My stack</h2>
@@ -26,14 +27,6 @@ function Home() {
       <ul className="p-10">
         <li className="bg-blue-900 p-4 rounded-lg w-150 my-5">
           <h3 className="text-2xl font-bold">Hogar Luz Y Vida</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maiores praesentium cumque pariatur culpa soluta voluptatum repellendus eius, quod modi consequatur nesciunt sequi impedit iusto inventore quibusdam voluptas exercitationem non.</p>
-        </li>
-        <li className="bg-blue-900 p-4 rounded-lg w-150 my-5">
-          <h3 className="text-2xl font-bold">Project 2</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maiores praesentium cumque pariatur culpa soluta voluptatum repellendus eius, quod modi consequatur nesciunt sequi impedit iusto inventore quibusdam voluptas exercitationem non.</p>
-        </li>
-        <li className="bg-blue-900 p-4 rounded-lg w-150 my-5">
-          <h3 className="text-2xl font-bold">Project 3</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maiores praesentium cumque pariatur culpa soluta voluptatum repellendus eius, quod modi consequatur nesciunt sequi impedit iusto inventore quibusdam voluptas exercitationem non.</p>
         </li>
       </ul>
