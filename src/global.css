@@ -4,23 +4,23 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: var(--font-ubuntu), monospace, sans-serif;
+  font-family: var(--font-jetbrains-mono), monospace, sans-serif;
   background-color: white;
 }
 
 @theme {
-  --font-ubuntu: "Ubuntu", "Arial", "monospace";
+  --font-jetbrains-mono: "JetBrains Mono", "Arial", "monospace";
 }
 
 @font-face {
-    font-family: 'Ubuntu';
-    src: url('/fonts/Ubuntu-Regular.woff2') format('woff2');
+    font-family: 'JetBrains Mono';
+    src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff2');
     font-weight: 400;
 }
 
 @font-face {
-    font-family: 'Ubuntu';
-    src: url('/fonts/Ubuntu-Bold.woff2') format('woff2');
+    font-family: 'JetBrains Mono';
+    src: url('/fonts/JetBrainsMono-Bold.woff2') format('woff2');
     font-weight: 700;
 }
 
