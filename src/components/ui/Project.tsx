@@ -1,16 +1,19 @@
+interface ProjectProps {
+  title: string;
+  description: string;
+  imageUrl: string;
+}
 
-
-const baseClasses = "bg-[#1e2358] text-white font-jetbrains-mono p-4 rounded-lg shadow-lg shadow-red-100 w-full my-2";
-const title = "Luz Y Vida";
-const description = "Proyecto de sitio web para una organización sin fines de lucro que brinda apoyo a personas en situación de calle, ofreciendo servicios como alimentación, alojamiento temporal y programas de reintegración social.";
-
-function Project () {
+const baseClasses = "bg-[#1e2358] text-white rounded-lg  w-full my-2 shadow-lg shadow-[#2b3280]";
+function Project ({title, description, imageUrl}: ProjectProps) {
   return (
     <div className={baseClasses}>
-      <h2 className="text-2xl font-bold">{title}</h2>
-      <p className="mt-2">{description}</p>
+      <section className="flex justify-center">
+        <img src={imageUrl} alt={`${title} project image`} className="w-full h-full rounded-lg"/>
+      </section>
       <section className="mt-4">
-        <img src="/imgs/project-luzyvida.png" alt="Project Luz Y Vida" />
+        <h3 className="text-2xl font-bold">{title}</h3>
+        <p className="mt-2 text-sm">{description}</p>
       </section>
     </div>
   );

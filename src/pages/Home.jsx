@@ -16,9 +16,9 @@ function Home() {
         </div>
       </section>
 
-      <section className="h-[110vh]">
-        <h2 className="text-3xl font-bold mb-6 text-center">Proyectos</h2>
-        <Project />
+      <section className="h-[110vh] p-5">
+        <h2 className="text-4xl font-bold mb-6 text-center">Proyectos</h2>
+        <Project title="Proyecto Luz Y Vida" description="Proyecto de sitio web para una organización sin fines de lucro que brinda apoyo a personas en situación de calle, ofreciendo servicios como alimentación, alojamiento temporal y programas de reintegración social." imageUrl="/imgs/project-luzyvida.png" />
       </section>
     </div>
   );
