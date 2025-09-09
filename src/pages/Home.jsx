@@ -11,7 +11,7 @@ function Home() {
         <h2 className="p-0 text-2xl font-medium">( alias <span className="text-[var(--light-purple)] font-bold">Sofo</span> )</h2>
         <p className="p-2 py-10 font-medium">I build modern, <span className="text-[var(--light-purple)] font-bold">mobile-first</span><br /> websites that connect ideas<br /> <span className="text-[var(--light-purple)] font-bold">with people.</span></p>
         <section className="p-4">
-          <SocialIcon />
+          <SocialIcon url="https://github.com/sofowest" icon="github" />
         </section>
       </article>
 
