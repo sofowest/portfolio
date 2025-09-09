@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "../components/ui/Project.tsx";
+import SocialIcon from "../components/ui/SocialIcon.tsx";
 
 function Home() {
   return (
@@ -10,7 +11,7 @@ function Home() {
         <h2 className="p-2 text-2xl font-medium">( alias <span className="text-[var(--light-purple)] font-bold">Sofo</span> )</h2>
         <p className="p-2 font-medium">I build modern, <span className="text-[var(--light-purple)] font-bold">mobile-first</span><br /> websites that connect ideas<br /> <span className="text-[var(--light-purple)] font-bold">with people.</span></p>
         <section className="p-4">
-
+          <SocialIcon />
         </section>
       </article>
 
