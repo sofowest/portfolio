@@ -5,16 +5,13 @@ function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2 text-white w-full bg-[#1e1a4d] shadow-2xl shadow-blue-900 overflow-hidden">
 
-      <section id="inicio" className="text-center mb-8 h-[100vh]">
-        {/* Centrar vertical y horizontalmente el contenido */}
-        <div className="flex flex-col justify-center items-center h-full">
-          <article className="mb-4 flex justify-center items-center ">
-            <img src="/imgs/profile.jpg" alt="Leandro Gómez" className="w-32 h-32 rounded-full object-cover" />
-          </article>
-          <h1 className="text-4xl font-bold">Leandro Gómez</h1>
-          <h2 className="text-2xl font-bold">Web Developer</h2>
-        </div>
-      </section>
+      <article>
+        <h1>Hey, I'm Sofo</h1>
+        <p>I build modern, <span>mobile-first</span> websites that connect ideas <span>with people.</span></p>
+        <section>
+
+        </section>
+      </article>
 
       <section className="h-[110vh] p-5">
         <h2 className="text-4xl font-bold mb-6 text-center">Proyectos</h2>
