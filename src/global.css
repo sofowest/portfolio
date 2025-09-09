@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: var(--font-jetbrains-mono), monospace, sans-serif;
+  font-family: var(--font-jetbrains-mono);
   background-color: white;
 }
 
@@ -16,8 +16,8 @@
   --light-purple: #8C47E0;
   --dark-purple: #371B59;
 
-  --text-shadow-name: 0px 0px 20px rgb(128, 63, 207);
-  --text-shadow-light: 0px 0px 10px rgb(212, 220, 255);
+  --text-shadow-name: 0px 0px 15px rgb(128, 63, 207);
+  --text-shadow-light: 0px 0px 8px rgb(212, 220, 255);
 
   --shadow-icons: 0 0 12px rgb(74, 37, 120);
 }
@@ -26,6 +26,12 @@
     font-family: 'JetBrains Mono';
     src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff2');
     font-weight: 400;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/fonts/JetBrainsMono-Medium.woff2') format('woff2');
+    font-weight: 500;
 }
 
 @font-face {

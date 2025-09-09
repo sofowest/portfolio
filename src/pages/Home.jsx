@@ -8,8 +8,8 @@ function Home() {
 
       <article className="flex justify-center items-center text-center h-[100vh] flex-col text-[var(--extra-light-purple)]">
         <h1 className="p-2 text-4xl font-extrabold lg:text-5xl lg:p-3 xl:text-6xl"><span className="text-shadow-light">Hey, I'm </span><span className="text-[var(--light-purple)] text-shadow-name">Leandro</span></h1>
-        <h2 className="p-0 text-2xl font-medium text-shadow-light lg:text-3xl xl:text-4xl">( alias <span className="text-[var(--light-purple)] font-bold text-shadow-name">Sofo</span> )</h2>
-        <p className="p-2 py-10 font-medium text-lg lg:text-xl lg:py-6 xl:text-2xl">I build modern, <span className="text-[var(--light-purple)] font-bold">mobile-first</span><br /> websites that connect ideas<br /> <span className="text-[var(--light-purple)] font-bold">with people.</span></p>
+        <h2 className="p-0 text-2xl font-bold text-shadow-light lg:text-3xl xl:text-4xl">( alias <span className="text-[var(--light-purple)] font-bold text-shadow-name">Sofo</span> )</h2>
+        <p className="p-2 py-10 font-medium text-lg lg:text-xl lg:py-6 xl:text-2xl">I build modern, <span className="text-[var(--light-purple)] text-shadow-[0_0_10px_rgba(128,63,207,0.5)]"><b>mobile-first</b></span><br /> websites that connect ideas<br /> <span className="text-[var(--light-purple)] text-shadow-[0_0_10px_rgba(128,63,207,0.5)]"><b>with people.</b></span></p>
         <section className="flex space-x-4 xl:space-x-6">
           <SocialIcon url="https://github.com/sofowest" icon="github" />
           <SocialIcon url="https://www.linkedin.com/in/leandro-gómez-739a92334" icon="linkedin" />
