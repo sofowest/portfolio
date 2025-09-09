@@ -4,7 +4,7 @@ interface SocialIconProps {
 }
 
 const SocialIcon = ({ url, icon }: SocialIconProps) => {
-    const iconClasses = "w-8 h-8 transition-colors duration-300 lg:w-10 lg:h-10";
+    const iconClasses = "w-8 h-8 transition-colors duration-300 lg:w-6 lg:h-6";
 
 
     
