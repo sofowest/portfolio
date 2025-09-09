@@ -18,6 +18,8 @@
 
   --text-shadow-name: 0px 0px 20px rgb(128, 63, 207);
   --text-shadow-light: 0px 0px 10px rgb(212, 220, 255);
+
+  --shadow-icons: 0 0 12px rgb(74, 37, 120);
 }
 
 @font-face {
