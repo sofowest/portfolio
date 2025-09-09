@@ -4,7 +4,7 @@ interface SocialIconProps {
 }
 
 const SocialIcon = ({ url, icon }: SocialIconProps) => {
-    const iconClasses = "w-8 h-8 transition-colors duration-300 lg:w-6 lg:h-6";
+    const iconClasses = "w-8 h-8 transition-colors duration-300 lg:w-6 lg:h-6 xl:w-7 xl:h-7";
 
 
     
@@ -17,7 +17,7 @@ const SocialIcon = ({ url, icon }: SocialIconProps) => {
     : "";
 
   return (
-    <a href={url} target="_blank" rel="noopener noreferrer" className="text-[extra-light-purple] bg-[var(--light-purple)] p-2 rounded-full transition-all hover:text-[var(--light-purple)] hover:scale-110 hover:shadow-[0_0_10px] hover:shadow-purple-300 hover:bg-[var(--dark-purple)]">
+    <a href={url} target="_blank" rel="noopener noreferrer" className="text-[extra-light-purple] bg-[var(--light-purple)] p-2 rounded-full transition-all hover:text-[var(--light-purple)] hover:scale-110 hover:shadow-icons hover:bg-[var(--dark-purple)]">
       {icon === 'github' && (
         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox={viewBoxValue} className={iconClasses}>
           <path d={dValue}></path>
