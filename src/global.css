@@ -10,11 +10,14 @@
 
 @theme {
   --font-jetbrains-mono: "JetBrains Mono", "Arial", "monospace";
-  
+
   --bckg-gray: #2E3036;
   --extra-light-purple: #D4DCFF;
   --light-purple: #8C47E0;
   --dark-purple: #371B59;
+
+  --text-shadow-name: 0px 0px 20px rgb(128, 63, 207);
+  --text-shadow-light: 0px 0px 10px rgb(212, 220, 255);
 }
 
 @font-face {
@@ -29,4 +32,9 @@
     font-weight: 700;
 }
 
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/fonts/JetBrainsMono-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+}
 
