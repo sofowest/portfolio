@@ -10,8 +10,11 @@ function Home() {
         <h1 className="p-2 text-4xl font-extrabold">Hey, I'm <span className="text-[var(--light-purple)]">Leandro</span></h1>
         <h2 className="p-0 text-2xl font-medium">( alias <span className="text-[var(--light-purple)] font-bold">Sofo</span> )</h2>
         <p className="p-2 py-10 font-medium">I build modern, <span className="text-[var(--light-purple)] font-bold">mobile-first</span><br /> websites that connect ideas<br /> <span className="text-[var(--light-purple)] font-bold">with people.</span></p>
-        <section className="p-4">
+        <section className="flex space-x-4">
           <SocialIcon url="https://github.com/sofowest" icon="github" />
+          <SocialIcon url="https://www.linkedin.com/in/leandro-gómez-739a92334" icon="linkedin" />
+          <SocialIcon url="https://wa.me/59891066507" icon="whatsapp" />
+          <SocialIcon url="mailto:leandrogomezmdev@gmail.com" icon="email" />
         </section>
       </article>
 
