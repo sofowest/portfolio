@@ -3,20 +3,20 @@ import Project from "../components/ui/Project.tsx";
 
 function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 text-white w-full bg-[#1e1a4d] shadow-2xl shadow-blue-900 overflow-hidden">
+    <div className="flex flex-col items-center justify-center min-h-screen py-2 text-white overflow-hidden w-full bg-[var(--bckg-gray)] shadow-2xl">
 
-      <article>
-        <h1>Hey, I'm Sofo</h1>
-        <p>I build modern, <span>mobile-first</span> websites that connect ideas <span>with people.</span></p>
-        <section>
+      <article className="flex justify-center items-center text-center h-[100vh] flex-col">
+        <h1 className="p-2 text-3xl">Hey, I'm <span className="text-[var(--light-purple)]">Leandro</span></h1>
+        <h2 className="p-2 text-2xl">(Alias <span>Sofo</span>)</h2>
+        <p className="p-2">I build modern, <span>mobile-first</span><br /> websites that connect ideas<br /> <span>with people.</span></p>
+        <section className="p-4">
 
         </section>
       </article>
 
-      <section className="h-[110vh] p-5">
+      <article className="h-[110vh] p-5">
         <h2 className="text-4xl font-bold mb-6 text-center">Proyectos</h2>
-        <Project title="Proyecto Luz Y Vida" description="Proyecto de sitio web para una organización sin fines de lucro que brinda apoyo a personas en situación de calle, ofreciendo servicios como alimentación, alojamiento temporal y programas de reintegración social." imageUrl="/imgs/project-luzyvida.png" />
-      </section>
+      </article>
     </div>
   );
 }
