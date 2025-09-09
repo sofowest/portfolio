@@ -49,12 +49,11 @@ function Home() {
           <span>Hey, I'm </span>
           <span className={"text-[var(--light-purple)] " + (flicker ? "flicker" : "")}>{displayedName}
             <span className={"inline-block w-1 ml-1 shadow-[0_0_8px_rgba(212,220,255,0.5)] transition-shadow duration-200" + (showCursor ? " bg-[var(--extra-light-purple)]" : " bg-transparent shadow-none")}
-              style={{height: '1em', verticalAlign: 'middle', transition: 'background 0.2s'}}>
-            </span>
+              style={{height: '1em', verticalAlign: 'middle', transition: 'background 0.2s'}}></span>
           </span>
         </h1>
         <h2 className="p-0 text-2xl font-bold lg:text-3xl xl:text-4xl">( alias <span className="text-[var(--light-purple)] font-bold">Sofo</span> )</h2>
-        <p className="p-2 py-10 font-medium text-lg lg:text-xl lg:py-6 xl:text-2xl">I build modern, <span className="text-[var(--light-purple)] "><b>mobile-first</b></span><br /> websites that connect ideas<br /> <span className="text-[var(--light-purple)] text-shadow-[0_0_10px_rgba(128,63,207,0.5)]"><b>with people.</b></span></p>
+        <p className="p-2 py-10 font-medium text-lg lg:text-xl lg:py-6 xl:text-2xl">I build modern, <span className="text-[var(--light-purple)] "><b>mobile-first</b></span><br /> websites that connect ideas<br /> <span className="text-[var(--light-purple)]"><b>with people.</b></span></p>
         <section className="flex space-x-4 xl:space-x-6">
           <SocialIcon url="https://github.com/sofowest" icon="github" />
           <SocialIcon url="https://www.linkedin.com/in/leandro-gómez-739a92334" icon="linkedin" />
@@ -68,15 +67,7 @@ function Home() {
       </article>
       {/* Animación flicker para el nombre */}
       <style>{`
-        .flicker {
-          text-shadow:
-            0 0 1px var(--bckg-gray),
-            0 0 2px var(--bckg-gray),
-            0 0 4px var(--light-purple),
-            0 0 8px var(--light-purple),
-            0 0 20px var(--light-purple);
-          transition: text-shadow 0.1s;
-        }
+        
       `}</style>
     </div>
   );

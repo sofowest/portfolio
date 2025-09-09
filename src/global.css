@@ -21,6 +21,18 @@
   --text-shadow-light: 0px 0px 5px rgb(212, 220, 255);
 
   --shadow-icons: 0 0 12px rgb(74, 37, 120);
+
+  --animation-flicker: flicker transition text-shadow 0.1s;
+}
+
+.flicker {
+  text-shadow:
+    0 0 1px var(--bckg-gray),
+    0 0 2px var(--bckg-gray),
+    0 0 4px var(--light-purple),
+    0 0 8px var(--light-purple),
+    0 0 20px var(--light-purple);
+  transition: text-shadow 0.1s;
 }
 
 @font-face {
