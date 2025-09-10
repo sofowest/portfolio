@@ -16,6 +16,7 @@
   --extra-light-purple: #D4DCFF;
   --light-purple: #8C47E0;
   --dark-purple: #371B59;
+  --bckg-gray-inicio: rgba(0, 0, 0, 0.419);
 
   --text-shadow-name: 0px 0px 10px rgb(128, 63, 207);
   --text-shadow-light: 0px 0px 5px rgb(212, 220, 255);
@@ -33,6 +34,16 @@
     0 0 8px var(--light-purple),
     0 0 20px var(--light-purple);
   transition: text-shadow 0.1s;
+}
+
+.flicker-bckg {
+  background-color: 
+  var(--bckg-gray-inicio),
+  none,
+  var(--bckg-gray-inicio),
+  none,
+  var(--bckg-gray-inicio);
+  transition: background-color 0.1s;
 }
 
 @font-face {

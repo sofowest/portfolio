@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import Project from "../components/ui/Project.tsx";
 import SocialIcon from "../components/ui/SocialIcon.tsx";
 
-function Home() {
+function Home({ onFlickerBg, setIsNameFlicker }) {
 
   const [displayedName, setDisplayedName] = useState("");
   const [showCursor, setShowCursor] = useState(true);
@@ -29,15 +29,27 @@ function Home() {
   const [flicker, setFlicker] = useState(false);
   useEffect(() => {
     if (displayedName === fullName) {
+      // Flicker en el nombre (varias veces)
       let flickerCount = 0;
       const flickerInterval = setInterval(() => {
-        setFlicker((prev) => !prev);
+        setFlicker((prev) => {
+          if (setIsNameFlicker) setIsNameFlicker(!prev);
+          return !prev;
+        });
         flickerCount++;
-        if (flickerCount > 8) clearInterval(flickerInterval);
+        if (flickerCount > 8) {
+          if (setIsNameFlicker) setIsNameFlicker(false);
+          clearInterval(flickerInterval);
+        }
       }, 80);
+      // Flicker en el fondo (sincronizado)
+      if (onFlickerBg) {
+        onFlickerBg(8 * 80);
+      }
       return () => clearInterval(flickerInterval);
     } else {
       setFlicker(false);
+      if (setIsNameFlicker) setIsNameFlicker(false);
     }
   }, [displayedName, fullName]);
 
