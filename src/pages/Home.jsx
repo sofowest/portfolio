@@ -32,10 +32,8 @@ function Home({ onFlickerBg, setIsNameFlicker }) {
       // Flicker en el nombre (varias veces)
       let flickerCount = 0;
       const flickerInterval = setInterval(() => {
-        setFlicker((prev) => {
-          if (setIsNameFlicker) setIsNameFlicker(!prev);
-          return !prev;
-        });
+        setFlicker((prev) => !prev);
+        if (setIsNameFlicker) setIsNameFlicker(flickerCount % 2 === 0);
         flickerCount++;
         if (flickerCount > 8) {
           if (setIsNameFlicker) setIsNameFlicker(false);
