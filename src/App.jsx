@@ -37,7 +37,7 @@ function App() {
       </main>
       <div
         className={"absolute top-0 left-0 w-full h-full z-10 pointer-events-none transition-colors duration-200 "}
-        style={{background: isNameFlicker ? "none" : "var(--bckg-gray-inicio)"}}
+        style={{background: isNameFlicker ? "transparent" : "var(--bckg-gray-inicio)"}}
       >
       </div>
     </div>
