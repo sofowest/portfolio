@@ -72,13 +72,27 @@ function Home({ onFlickerBg, setIsNameFlicker }) {
         </section>
       </article>
 
-      <article className="h-[110vh] p-5">
-        <h2 className="text-4xl font-bold mb-6 text-center">Proyectos</h2>
+      <article className="h-[70vh] p-5 flex flex-col mt-10 gap-7 items-center justify-center">
+        <h2 className="text-4xl font-bold text-center">About Me</h2>
+        <section className="justify-center items-center flex">
+          <img src="./imgs/profile.jpg" alt="foto de " className="w-[70vw] max-w-[380px] h-auto md:w-[300px] rounded-2xl" />
+        </section>
+        <section className="w-[70vw] justify-center text-justify mb-10">
+          <p className="text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis possimus minima laborum eveniet atque dolor quia inventore minus ducimus ipsam blanditiis, doloribus veritatis explicabo commodi eaque corrupti in. Officiis, aliquid.</p>
+        </section>
       </article>
-      {/* Animación flicker para el nombre */}
-      <style>{`
-        
-      `}</style>
+
+      <article className="h-[100vh] p-5 flex flex-col mt-10 gap-7 items-center justify-center">
+        <h2 className="text-4xl font-bold text-center">About Me</h2>
+        <section className="justify-center items-center flex">
+          <img src="./imgs/profile.jpg" alt="foto de " className="w-[400px] h-auto rounded-2xl" />
+        </section>
+        <section className="px-8 justify-center text-justify">
+          <p className="text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis possimus minima laborum eveniet atque dolor quia inventore minus ducimus ipsam blanditiis, doloribus veritatis explicabo commodi eaque corrupti in. Officiis, aliquid.</p>
+        </section>
+      </article>
+
+
     </div>
   );
 }
