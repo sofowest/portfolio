@@ -73,7 +73,7 @@ function Home({ onFlickerBg, setIsNameFlicker }) {
       </article>
 
       <article className="h-[70vh] p-5 flex flex-col mt-10 gap-7 items-center justify-center">
-        <h2 className="text-4xl font-bold text-center">About Me</h2>
+        <h2 className="text-4xl font-extrabold text-center">About Me</h2>
         <section className="justify-center items-center flex">
           <img src="./imgs/profile.jpg" alt="foto de " className="w-[70vw] max-w-[380px] h-auto md:w-[300px] rounded-2xl" />
         </section>

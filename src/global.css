@@ -10,7 +10,7 @@
 }
 
 @theme {
-  --font-jetbrains-mono: "JetBrains Mono", "Arial", "monospace";
+  --font-jetbrains-mono: "JetBrains Mono", "monospace";
 
   --bckg-gray: #2E3036;
   --extra-light-purple: #D4DCFF;
