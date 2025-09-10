@@ -56,7 +56,7 @@ function Home({ onFlickerBg, setIsNameFlicker }) {
 
       <article className="flex justify-center items-center text-center h-[100vh] flex-col">
         <h1 className="p-2 text-5xl font-extrabold leading-15 lg:text-5xl lg:p-3 xl:text-6xl">
-          <span>Hey, I'm <br /></span>
+          <span>Hey, I'm <br className="md:hidden" /></span>
           <span className={"text-[var(--light-purple)] " + (flicker ? "flicker" : "")}>{displayedName}
             <span className={"inline-block w-1 ml-1 shadow-[0_0_8px_rgba(212,220,255,0.5)] transition-shadow duration-200" + (showCursor ? " bg-[var(--extra-light-purple)]" : " bg-transparent shadow-none")}
               style={{height: '1em', verticalAlign: 'middle', transition: 'background 0.2s'}}></span>
@@ -83,13 +83,8 @@ function Home({ onFlickerBg, setIsNameFlicker }) {
       </article>
 
       <article className="h-[130vh] p-5 flex flex-col mt-10 gap-7 items-center justify-center">
-        <h2 className="text-4xl font-bold text-center">About Me</h2>
-        <section className="justify-center items-center flex">
-          <img src="./imgs/profile.jpg" alt="foto de " className="w-[400px] h-auto rounded-2xl" />
-        </section>
-        <section className="px-8 justify-center text-justify">
-          <p className="text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis possimus minima laborum eveniet atque dolor quia inventore minus ducimus ipsam blanditiis, doloribus veritatis explicabo commodi eaque corrupti in. Officiis, aliquid.</p>
-        </section>
+        <h2 className="text-4xl font-bold text-center">Projects</h2>
+        <p className="text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis possimus minima laborum eveniet atque dolor quia inventore minus ducimus ipsam blanditiis, doloribus veritatis explicabo commodi eaque corrupti in. Officiis, aliquid.</p>
       </article>
 
 
