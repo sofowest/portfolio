@@ -72,13 +72,13 @@ function Home({ onFlickerBg, setIsNameFlicker }) {
         </section>
       </article>
 
-      <article className="h-[70vh] p-5 flex flex-col mt-10 gap-7 items-center justify-center">
+      <article className="h-[100vh] p-5 flex flex-col mt-10 gap-7 items-center justify-center">
         <h2 className="text-4xl font-extrabold text-center">About Me</h2>
         <section className="justify-center items-center flex">
           <img src="./imgs/profile.jpg" alt="foto de " className="w-[70vw] max-w-[380px] h-auto md:w-[300px] rounded-2xl" />
         </section>
         <section className="w-[70vw] text-left mb-10">
-          <p className="text-md">sakjsas d das hdgs jdsajd gas h fd jsd g sa dkgas jd a s jdgas hdsah dkjgs djka sda sgdjs a  ds  hsagdkhasd g gg dshj s sadhj as sahj as  ds dshd</p>
+          <p className="text-md">Empecé a programar a los 7 años y desde entonces he estado en un viaje de aprendizaje constante. He trabajado con una variedad de tecnologías y lenguajes de programación, y siempre estoy buscando nuevas formas de mejorar mis habilidades. Me podrás encontrar siempre programando algo nuevo, o mejorandolo, mientras escucho mi playlist de boombap.</p>
         </section>
       </article>
 
