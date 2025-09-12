@@ -5,7 +5,7 @@ function Footer() {
         <p className="text-sm">
           Made with <span className="text-[var(--light-purple)]">💜</span> and so much coffee by Leandro Gómez.
         </p>
-        <p className="text-sm">Credits for Midudev, BettaTech, MoureDev, Goncy and HdeLeon</p>
+        <p className="text-sm">Credits for <a href="">Midudev</a>, <a href="">BettaTech</a>, <a href="">MoureDev</a>, <a href="">Goncy</a> and <a href="">HdeLeon</a></p>
       </div>
     </footer>
   );
