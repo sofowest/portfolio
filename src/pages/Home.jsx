@@ -63,7 +63,7 @@ function Home({ onFlickerBg, setIsNameFlicker }) {
           </span>
         </h1>
         <h2 className="p-0 text-3xl font-bold lg:text-3xl xl:text-4xl">( alias <span className="text-[var(--light-purple)] font-bold">Sofo</span> )</h2>
-        <p className="p-2 py-10 font-medium text-xl lg:text-xl lg:py-6 xl:text-2xl">I build modern, <span className="text-[var(--light-purple)] "><b>mobile-first</b></span><br /> websites that connect ideas<br /> <span className="text-[var(--light-purple)]"><b>with people.</b></span></p>
+        <p className="p-2 py-7 font-medium text-xl lg:text-xl lg:py-6 xl:text-2xl">I build modern, <span className="text-[var(--light-purple)] "><b>mobile-first</b></span><br /> websites that connect ideas<br /> <span className="text-[var(--light-purple)]"><b>with people.</b></span></p>
         <section className="flex space-x-4 xl:space-x-6">
           <SocialIcon url="https://github.com/sofowest" icon="github" />
           <SocialIcon url="https://www.linkedin.com/in/leandro-gómez-739a92334" icon="linkedin" />
