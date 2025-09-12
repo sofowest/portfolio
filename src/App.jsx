@@ -1,6 +1,7 @@
 import React from 'react'
 import './global.css'
 import Home from './pages/Home.jsx'
+import Footer from './components/layout/footer.jsx';
 
 // Estado para controlar el flicker en el fondo
 import { useState } from 'react';
@@ -40,6 +41,7 @@ function App() {
         style={{background: (isNameFlicker || finalTransparent) ? "transparent" : "var(--bckg-gray-inicio)"}}
       >
       </div>
+      <Footer />
     </div>
   )
 }
