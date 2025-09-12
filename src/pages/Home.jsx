@@ -77,7 +77,7 @@ function Home({ onFlickerBg, setIsNameFlicker }) {
         </section>
       </article>
 
-      <article className="h-[1000px] w-[100vw] flex flex-col gap-10 items-center justify-center bg-[var(--dark-purple)] back">
+      <article className="h-[810px] w-[100vw] flex flex-col gap-10 items-center justify-center bg-[var(--dark-purple)] back">
         <h2 className="text-5xl font-extrabold text-center border-5 py-2 px-6 border-[var(--light-purple)] rounded-full shadow-[0_0_8px_rgba(212,220,255,0.5)]">About Me</h2>
         <section className="justify-center items-center flex">
           <img src="./imgs/profile.jpg" alt="foto de " className="w-[80vw] h-auto md:w-[300px] rounded-2xl" />
