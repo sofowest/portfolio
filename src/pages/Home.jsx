@@ -54,7 +54,7 @@ function Home({ onFlickerBg, setIsNameFlicker }) {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2 overflow-hidden w-full bg-[var(--bckg-gray)] lg:shadow-[0px_0px_100px_5px_#522b82] lg:w-[800px] xl:w-[1080px]">
 
-      <article className="flex justify-center items-center text-center h-[100lvh] flex-col relative">
+      <article className="flex justify-center items-center text-center h-[100svh] flex-col relative">
         <h1 className="p-2 text-5xl font-extrabold leading-15 lg:text-5xl lg:p-3 xl:text-6xl">
           <span>Hey, I'm <br className="md:hidden" /></span>
           <span className={"text-[var(--light-purple)] " + (flicker ? "flicker" : "")}>{displayedName}
