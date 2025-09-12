@@ -3,8 +3,9 @@ function Footer() {
     <footer className="bg-[var(--dark-purple)] text-[var(--light-purple)] py-4">
       <div className="container mx-auto text-center">
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} Leandro Gómez. All rights reserved.
+          Made with <span className="text-[var(--light-purple)]">💜</span> and so much coffee by Leandro Gómez.
         </p>
+        <p>Credits for Midudev, BettaTech, MoureDev and HdLeon</p>
       </div>
     </footer>
   );
