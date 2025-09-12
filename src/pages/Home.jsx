@@ -82,10 +82,9 @@ function Home({ onFlickerBg, setIsNameFlicker }) {
         <section className="justify-center items-center flex">
           <img src="./imgs/profile.jpg" alt="foto de " className="w-[80vw] h-auto md:w-[300px] rounded-2xl" />
         </section>
-        <section className="w-[80vw] text-left mb-10 gap-4 flex flex-col">
+        <section className="w-[80vw] text-left mb-10 gap-0 flex flex-col">
           {/* <p className="text-md">Empecé a programar a los 7 años y desde entonces he estado en un viaje de aprendizaje constante. He trabajado con una variedad de tecnologías y lenguajes de programación, y siempre estoy buscando nuevas formas de mejorar mis habilidades. Me podrás encontrar siempre programando algo nuevo, o mejorandolo, mientras escucho mi playlist de boombap o debates de temas interesantes de fondo.</p> */}
-          <p className="text-base">At the age of 7, I started programming and have been on a constant learning journey ever since.</p>
-          <p className="text-base">I have worked with a variety of technologies and programming languages, and I am always looking for new ways to improve my skills. You can always find me programming something new or improving it while listening to my boombap playlist or debates on interesting topics in the background.</p>
+          <p className="text-base indent-8">At the age of 7, I started programming and have been on a constant learning journey ever since. I have worked with a variety of technologies and programming languages, and I am always looking for new ways to improve my skills.</p>
         </section>
       </article>
 
