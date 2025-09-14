@@ -93,8 +93,6 @@ function Home({ onFlickerBg, setIsNameFlicker }) {
         <Project title="My First Project" description="Este es un proyecto creado para una empresa de un residencial para adultos." imageUrl="./imgs/project-luzyvida.png"/>
         <p className="text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis possimus minima laborum eveniet atque dolor quia inventore minus ducimus ipsam blanditiis, doloribus veritatis explicabo commodi eaque corrupti in. Officiis, aliquid.</p>
       </article>
-
-
     </div>
   );
 }
