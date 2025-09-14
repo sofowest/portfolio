@@ -89,7 +89,7 @@ function Home({ onFlickerBg, setIsNameFlicker }) {
       </article>
 
       <article className="h-[130vh] p-5 flex flex-col mt-10 gap-7 items-center justify-center">
-        <h2 className="text-4xl font-bold text-center">Projects</h2>
+        <h2 className="text-5xl font-bold text-center">Projects</h2>
         <Project title="Hogar Luz y Vida" description="Este es un proyecto creado para una empresa de un residencial para adultos." imageUrl="./imgs/project-luzyvida.png"/>
       </article>
     </div>
