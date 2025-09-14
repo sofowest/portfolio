@@ -90,6 +90,7 @@ function Home({ onFlickerBg, setIsNameFlicker }) {
 
       <article className="h-[130vh] p-5 flex flex-col mt-10 gap-7 items-center justify-center">
         <h2 className="text-4xl font-bold text-center">Projects</h2>
+        <Project title="My First Project" description="This is a description of my first project." imageUrl="./imgs/project-luzyvida.png"/>
         <p className="text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis possimus minima laborum eveniet atque dolor quia inventore minus ducimus ipsam blanditiis, doloribus veritatis explicabo commodi eaque corrupti in. Officiis, aliquid.</p>
       </article>
 
