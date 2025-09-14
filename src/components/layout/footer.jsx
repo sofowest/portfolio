@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="bg-[var(--dark-purple)] text-[var(--light-purple)] py-4 px-2">
+    <footer className="bg-[var(--dark-purple)] text-[var(--light-purple)] py-4 px-2 h-45 flex items-center justify-center shadow-inner shadow-[0px_0px_50px_5px_#522b82]">
       <div className="container mx-auto text-center gap-2 flex flex-col items-center">
         <p className="text-lg">
           Made with <span className="text-[var(--light-purple)]">💜</span> and so much coffee <br /> by <span className="font-bold">Leandro Gómez</span>.
