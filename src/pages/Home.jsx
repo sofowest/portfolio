@@ -77,12 +77,12 @@ function Home({ onFlickerBg, setIsNameFlicker }) {
         </section>
       </article>
 
-      <article className="h-[810px] w-[100vw] flex flex-col gap-10 items-center justify-center bg-[var(--dark-purple)] back">
+      <article className="h-[810px] w-[100vw] lg:w-[800px] xl:w-[1080px] flex flex-col gap-10 items-center justify-center bg-[var(--dark-purple)] back">
         <h2 className="text-5xl font-extrabold text-center border-5 py-2 px-6 border-[var(--light-purple)] rounded-full shadow-[0_0_8px_rgba(212,220,255,0.5)]">About Me</h2>
         <section className="justify-center items-center flex">
           <img src="./imgs/profile.jpg" alt="foto de " className="w-[80vw] h-auto md:w-[300px] rounded-2xl" />
         </section>
-        <section className="w-[80vw] text-left mb-10 gap-0 flex flex-col">
+        <section className="w-[80vw] lg:w-full lg:px-10 text-left mb-10 gap-0 flex flex-col">
           {/* <p className="text-md">Empecé a programar a los 7 años y desde entonces he estado en un viaje de aprendizaje constante. He trabajado con una variedad de tecnologías y lenguajes de programación, y siempre estoy buscando nuevas formas de mejorar mis habilidades. Me podrás encontrar siempre programando algo nuevo, o mejorandolo, mientras escucho mi playlist de boombap o debates de temas interesantes de fondo.</p> */}
           <p className="text-base indent-8">At the age of 7, I started programming and have been on a constant learning journey ever since. I have worked with a variety of technologies and programming languages, and I am always looking for new ways to improve my skills.</p>
         </section>
