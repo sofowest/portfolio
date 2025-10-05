@@ -62,7 +62,7 @@ function Home({ onFlickerBg, setIsNameFlicker }) {
               style={{height: '1em', verticalAlign: 'middle', transition: 'background 0.2s'}}></span>
           </span>
         </h1>
-        <h2 className="p-0 text-3xl font-bold lg:text-3xl xl:text-4xl">( alias <span className="text-[var(--light-purple)] font-bold">Sofo</span> )</h2>
+        <h2 className="p-0 text-3xl font-bold lg:text-3xl xl:text-4xl">( alias <span className="text-[var(--light-purple)] font-bold">sofowest</span> )</h2>
         <p className="p-2 py-7 font-medium text-xl lg:text-xl lg:py-6 xl:text-2xl">I build modern, <span className="text-[var(--light-purple)] "><b>mobile-first</b></span><br /> websites that connect ideas<br /> <span className="text-[var(--light-purple)]"><b>with people.</b></span></p>
         <section className="flex space-x-4 xl:space-x-6">
           <SocialIcon url="https://github.com/sofowest" icon="github" />
